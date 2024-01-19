@@ -15,11 +15,11 @@ fair:
   dataset_mappers:
     "^/datasets01/datasets01": "/datasets01"
 darwin:
-  dora_dir: /tmp/audiocraft_${oc.env:USER}
+  dora_dir: /mnt/backgroundscore-sg/tmp/audiocraft_${oc.env:USER}
   partitions:
     global: debug
     team: debug
-  reference_dir: /tmp
+  reference_dir: /mnt/backgroundscore-sg/tmp
 rsc:
   dora_dir: /checkpoint/audiocraft/${oc.env:USER}/experiments/audiocraft/outputs
   partitions:
